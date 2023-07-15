@@ -1,0 +1,183 @@
+.body {
+    background-image: url("/bg.jpg");
+    background-size: cover;
+    height: 720px;
+
+}
+
+body{
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+    color: grey;
+}
+
+#title {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    /* left: 6rem; */
+
+}
+
+
+ h1 {
+    width: 70%;
+
+}
+
+.container {
+    position: relative;
+    top: 2rem;
+    display: flex;
+
+}
+
+.text {
+    color: wheat;
+}
+
+ol li {
+    color: white;
+
+}
+
+
+#books {
+    position: relative;
+    /* left: 25rem; */
+}
+
+form {
+    position: relative;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+#btn {
+    padding-right: 14%;
+    padding-left: 14%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+img {
+    width: auto;
+    height: 15rem;
+    position: relative;
+    top: 2rem;
+
+}
+
+#navbarSupportedContent {
+    margin-left: 9rem;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .container h1 {
+        width: 90%;
+
+    }
+
+    img {
+        width: auto;
+        height: 12rem;
+        position: relative;
+        /* top: 6rem; */
+        left: 2rem;
+
+    }
+
+    form {
+        position: relative;
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+} 
+
+footer{
+    margin-top: 5rem;
+}
+ 
+@media screen and (max-width: 619px) {
+
+    .container h1 {
+        width: 100%;
+
+    }
+
+    img {
+        width: 35%;
+        position: relative;
+        left: 30%;
+        top: 4rem;
+    vertical-align: middle;
+
+    }
+
+    form {
+        position: relative;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .container {
+        position: relative;
+        top: 1rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+} 
+
+.row{
+    width: 90%;
+}
+
+#foot:hover{
+    color: grey;
+}
+
+@media screen and (max-width: 619px) {
+    .body {
+
+        height: 930px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 444px) {
+    img {
+
+        width: 40%;
+    
+    }
+
+    .body {
+
+        height: 1000px;
+    
+    }
+    
+}
+@media screen and (max-width: 324px) {
+    img {
+
+        width: 50%;
+    
+    }
+
+    .body {
+
+        height: 1000px;
+    
+    }
+    
+}
